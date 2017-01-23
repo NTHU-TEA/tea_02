@@ -1,0 +1,9 @@
+Type this in terminal:
+gcc -c geom.c
+gcc -c gd.c 
+
+You will see geom.o, gd.o
+
+then
+
+gcc geom.o gd.o -o geom -l m

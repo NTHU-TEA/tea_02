@@ -1,0 +1,10 @@
+Type this in terminal:
+gcc -c geom.c
+gcc -c gd.c 
+gcc -c tip.c
+
+You will see geom.o, gd.o, tip.c
+
+then
+gcc geom.o gd.o geom -l m
+gcc tip.o gd.o -o tip 

@@ -1,0 +1,7 @@
+Makefile
+
+make
+(Makefile format tab vs. 4 space )
+build multiple target need to add another recipe
+
+all: tip geom

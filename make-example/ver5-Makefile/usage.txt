@@ -1,0 +1,6 @@
+Write a Makefile
+
+in terminal just type `make`
+build multiple target need to add another recipe
+`make all`
+all: tip geom
