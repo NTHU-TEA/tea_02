@@ -11,7 +11,7 @@ int main()
 
     double tipAmt = price * tip /100.0;
     double total = price + tipAmt;
-    printf("Tip amount: d%lf\n", tipAmt);
+    printf("Tip amount: %lf\n", tipAmt);
     printf("Total amount: %lf \n", total);
 
 }

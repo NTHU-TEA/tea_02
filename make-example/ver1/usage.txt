@@ -1,0 +1,3 @@
+gcc -c geom.c
+then:
+gcc  geom.o -o geom -l m

@@ -14,7 +14,7 @@ double get_double(char *prompt, double min, double max)
         if (input < min) printf("Must be at least %lf\n" , min);     
         if (input > max) printf("Must be at most %lf\n" , max);
     }
-    while (input < min || input > max)
+    while (input < min || input > max);
     
         return input;
 }
